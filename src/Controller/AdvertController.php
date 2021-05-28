@@ -22,7 +22,7 @@ class AdvertController extends AbstractController
     public function index(): Response
     {
         return $this->render('Advert/index.html.twig', [
-            'name' => 'Willy',
+            'name' => 'Wilfried',
         ]);
     }
 
